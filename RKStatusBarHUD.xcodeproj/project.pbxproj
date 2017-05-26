@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE180881ED70B4700E0E808 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE180871ED70B4700E0E808 /* main.m */; };
+		DDE1808B1ED70B4700E0E808 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1808A1ED70B4700E0E808 /* AppDelegate.m */; };
+		DDE1808E1ED70B4700E0E808 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE1808D1ED70B4700E0E808 /* ViewController.m */; };
+		DDE180911ED70B4700E0E808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE1808F1ED70B4700E0E808 /* Main.storyboard */; };
+		DDE180931ED70B4700E0E808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE180921ED70B4700E0E808 /* Assets.xcassets */; };
+		DDE180961ED70B4700E0E808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE180941ED70B4700E0E808 /* LaunchScreen.storyboard */; };
+		DDE180A11ED70B4700E0E808 /* RKStatusBarHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE180A01ED70B4700E0E808 /* RKStatusBarHUDTests.m */; };
+		DDE180AC1ED70B4800E0E808 /* RKStatusBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE180AB1ED70B4800E0E808 /* RKStatusBarHUDUITests.m */; };
+		DDE180C01ED7184900E0E808 /* RKStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDE180BD1ED7184900E0E808 /* RKStatusBarHUD.bundle */; };
+		DDE180C11ED7184900E0E808 /* RKStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE180BF1ED7184900E0E808 /* RKStatusBarHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE1809D1ED70B4700E0E808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE1807B1ED70B4700E0E808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE180821ED70B4700E0E808;
+			remoteInfo = RKStatusBarHUD;
+		};
+		DDE180A81ED70B4800E0E808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE1807B1ED70B4700E0E808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE180821ED70B4700E0E808;
+			remoteInfo = RKStatusBarHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE180831ED70B4700E0E808 /* RKStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE180871ED70B4700E0E808 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE180891ED70B4700E0E808 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDE1808A1ED70B4700E0E808 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDE1808C1ED70B4700E0E808 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDE1808D1ED70B4700E0E808 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDE180901ED70B4700E0E808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE180921ED70B4700E0E808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE180951ED70B4700E0E808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE180971ED70B4700E0E808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE1809C1ED70B4700E0E808 /* RKStatusBarHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKStatusBarHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE180A01ED70B4700E0E808 /* RKStatusBarHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKStatusBarHUDTests.m; sourceTree = "<group>"; };
+		DDE180A21ED70B4800E0E808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE180A71ED70B4800E0E808 /* RKStatusBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKStatusBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE180AB1ED70B4800E0E808 /* RKStatusBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKStatusBarHUDUITests.m; sourceTree = "<group>"; };
+		DDE180AD1ED70B4800E0E808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE180BD1ED7184900E0E808 /* RKStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RKStatusBarHUD.bundle; sourceTree = "<group>"; };
+		DDE180BE1ED7184900E0E808 /* RKStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKStatusBarHUD.h; sourceTree = "<group>"; };
+		DDE180BF1ED7184900E0E808 /* RKStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKStatusBarHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE180801ED70B4700E0E808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE180991ED70B4700E0E808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE180A41ED70B4800E0E808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE1807A1ED70B4700E0E808 = {
+			isa = PBXGroup;
+			children = (
+				DDE180851ED70B4700E0E808 /* RKStatusBarHUD */,
+				DDE1809F1ED70B4700E0E808 /* RKStatusBarHUDTests */,
+				DDE180AA1ED70B4800E0E808 /* RKStatusBarHUDUITests */,
+				DDE180841ED70B4700E0E808 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE180841ED70B4700E0E808 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180831ED70B4700E0E808 /* RKStatusBarHUD.app */,
+				DDE1809C1ED70B4700E0E808 /* RKStatusBarHUDTests.xctest */,
+				DDE180A71ED70B4800E0E808 /* RKStatusBarHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE180851ED70B4700E0E808 /* RKStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180BC1ED7184900E0E808 /* RKStatusBarHUD */,
+				DDE180891ED70B4700E0E808 /* AppDelegate.h */,
+				DDE1808A1ED70B4700E0E808 /* AppDelegate.m */,
+				DDE1808C1ED70B4700E0E808 /* ViewController.h */,
+				DDE1808D1ED70B4700E0E808 /* ViewController.m */,
+				DDE1808F1ED70B4700E0E808 /* Main.storyboard */,
+				DDE180921ED70B4700E0E808 /* Assets.xcassets */,
+				DDE180941ED70B4700E0E808 /* LaunchScreen.storyboard */,
+				DDE180971ED70B4700E0E808 /* Info.plist */,
+				DDE180861ED70B4700E0E808 /* Supporting Files */,
+			);
+			path = RKStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		DDE180861ED70B4700E0E808 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180871ED70B4700E0E808 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE1809F1ED70B4700E0E808 /* RKStatusBarHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180A01ED70B4700E0E808 /* RKStatusBarHUDTests.m */,
+				DDE180A21ED70B4800E0E808 /* Info.plist */,
+			);
+			path = RKStatusBarHUDTests;
+			sourceTree = "<group>";
+		};
+		DDE180AA1ED70B4800E0E808 /* RKStatusBarHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180AB1ED70B4800E0E808 /* RKStatusBarHUDUITests.m */,
+				DDE180AD1ED70B4800E0E808 /* Info.plist */,
+			);
+			path = RKStatusBarHUDUITests;
+			sourceTree = "<group>";
+		};
+		DDE180BC1ED7184900E0E808 /* RKStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				DDE180BD1ED7184900E0E808 /* RKStatusBarHUD.bundle */,
+				DDE180BE1ED7184900E0E808 /* RKStatusBarHUD.h */,
+				DDE180BF1ED7184900E0E808 /* RKStatusBarHUD.m */,
+			);
+			path = RKStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE180821ED70B4700E0E808 /* RKStatusBarHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE180B01ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUD" */;
+			buildPhases = (
+				DDE1807F1ED70B4700E0E808 /* Sources */,
+				DDE180801ED70B4700E0E808 /* Frameworks */,
+				DDE180811ED70B4700E0E808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKStatusBarHUD;
+			productName = RKStatusBarHUD;
+			productReference = DDE180831ED70B4700E0E808 /* RKStatusBarHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE1809B1ED70B4700E0E808 /* RKStatusBarHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE180B31ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUDTests" */;
+			buildPhases = (
+				DDE180981ED70B4700E0E808 /* Sources */,
+				DDE180991ED70B4700E0E808 /* Frameworks */,
+				DDE1809A1ED70B4700E0E808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE1809E1ED70B4700E0E808 /* PBXTargetDependency */,
+			);
+			name = RKStatusBarHUDTests;
+			productName = RKStatusBarHUDTests;
+			productReference = DDE1809C1ED70B4700E0E808 /* RKStatusBarHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE180A61ED70B4800E0E808 /* RKStatusBarHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE180B61ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUDUITests" */;
+			buildPhases = (
+				DDE180A31ED70B4800E0E808 /* Sources */,
+				DDE180A41ED70B4800E0E808 /* Frameworks */,
+				DDE180A51ED70B4800E0E808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE180A91ED70B4800E0E808 /* PBXTargetDependency */,
+			);
+			name = RKStatusBarHUDUITests;
+			productName = RKStatusBarHUDUITests;
+			productReference = DDE180A71ED70B4800E0E808 /* RKStatusBarHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE1807B1ED70B4700E0E808 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RK;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = rock;
+				TargetAttributes = {
+					DDE180821ED70B4700E0E808 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DDE1809B1ED70B4700E0E808 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DDE180821ED70B4700E0E808;
+					};
+					DDE180A61ED70B4800E0E808 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DDE180821ED70B4700E0E808;
+					};
+				};
+			};
+			buildConfigurationList = DDE1807E1ED70B4700E0E808 /* Build configuration list for PBXProject "RKStatusBarHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE1807A1ED70B4700E0E808;
+			productRefGroup = DDE180841ED70B4700E0E808 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE180821ED70B4700E0E808 /* RKStatusBarHUD */,
+				DDE1809B1ED70B4700E0E808 /* RKStatusBarHUDTests */,
+				DDE180A61ED70B4800E0E808 /* RKStatusBarHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE180811ED70B4700E0E808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE180C01ED7184900E0E808 /* RKStatusBarHUD.bundle in Resources */,
+				DDE180961ED70B4700E0E808 /* LaunchScreen.storyboard in Resources */,
+				DDE180931ED70B4700E0E808 /* Assets.xcassets in Resources */,
+				DDE180911ED70B4700E0E808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1809A1ED70B4700E0E808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE180A51ED70B4800E0E808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE1807F1ED70B4700E0E808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE1808E1ED70B4700E0E808 /* ViewController.m in Sources */,
+				DDE1808B1ED70B4700E0E808 /* AppDelegate.m in Sources */,
+				DDE180C11ED7184900E0E808 /* RKStatusBarHUD.m in Sources */,
+				DDE180881ED70B4700E0E808 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE180981ED70B4700E0E808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE180A11ED70B4700E0E808 /* RKStatusBarHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE180A31ED70B4800E0E808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE180AC1ED70B4800E0E808 /* RKStatusBarHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE1809E1ED70B4700E0E808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE180821ED70B4700E0E808 /* RKStatusBarHUD */;
+			targetProxy = DDE1809D1ED70B4700E0E808 /* PBXContainerItemProxy */;
+		};
+		DDE180A91ED70B4800E0E808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE180821ED70B4700E0E808 /* RKStatusBarHUD */;
+			targetProxy = DDE180A81ED70B4800E0E808 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE1808F1ED70B4700E0E808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE180901ED70B4700E0E808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE180941ED70B4700E0E808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE180951ED70B4700E0E808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE180AE1ED70B4800E0E808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE180AF1ED70B4800E0E808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE180B11ED70B4800E0E808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDE180B21ED70B4800E0E808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDE180B41ED70B4800E0E808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RKStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKStatusBarHUD.app/RKStatusBarHUD";
+			};
+			name = Debug;
+		};
+		DDE180B51ED70B4800E0E808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RKStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKStatusBarHUD.app/RKStatusBarHUD";
+			};
+			name = Release;
+		};
+		DDE180B71ED70B4800E0E808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RKStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKStatusBarHUD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDE180B81ED70B4800E0E808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RKStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rock.www.RKStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RKStatusBarHUD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE1807E1ED70B4700E0E808 /* Build configuration list for PBXProject "RKStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE180AE1ED70B4800E0E808 /* Debug */,
+				DDE180AF1ED70B4800E0E808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE180B01ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE180B11ED70B4800E0E808 /* Debug */,
+				DDE180B21ED70B4800E0E808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE180B31ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE180B41ED70B4800E0E808 /* Debug */,
+				DDE180B51ED70B4800E0E808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE180B61ED70B4800E0E808 /* Build configuration list for PBXNativeTarget "RKStatusBarHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE180B71ED70B4800E0E808 /* Debug */,
+				DDE180B81ED70B4800E0E808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE1807B1ED70B4700E0E808 /* Project object */;
+}
