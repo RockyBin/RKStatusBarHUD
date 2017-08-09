@@ -22,3 +22,6 @@
 ```objc
     [RKStatusBarHUD hide];
 ```
+
+###更新说明
+* 添加了点击控制器显示更新信息
