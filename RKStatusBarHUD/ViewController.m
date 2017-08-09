@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [RKStatusBarHUD showSucess:@"显示成功!"]; 
+}
+
 - (IBAction)success:(id)sender {
     [RKStatusBarHUD showSucess:@"显示成功!"];
 }
